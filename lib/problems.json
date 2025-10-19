@@ -1,0 +1,70 @@
+{
+  "coding_problems": [
+    {
+      "title": "Two Sum",
+      "description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.",
+      "constraints": "1. 2 <= nums.length <= 10^4\n2. -10^9 <= nums[i] <= 10^9\n3. -10^9 <= target <= 10^9",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Reverse Integer",
+      "description": "Given a signed 32-bit integer `x`, return `x` with its digits reversed. If reversing `x` causes the value to go outside the signed 32-bit integer range [-2^31, 2^31 - 1], then return 0.\n\nAssume the environment does not allow you to store 64-bit integers (signed or unsigned).",
+      "constraints": "1. -2^31 <= x <= 2^31 - 1",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Merge Two Sorted Lists",
+      "description": "Merge two sorted linked lists `l1` and `l2` into a new sorted list. The new list should be made by splicing together the nodes of the two lists.\n\nYou may assume the two lists do not have cycles and are sorted in non-decreasing order.",
+      "constraints": "The number of nodes in both lists is in the range [0, 50].\n-100 <= Node.val <= 100\nBoth l1 and l2 are sorted in non-decreasing order.",
+      "difficulty": "Easy"
+    },
+    {
+      "title": "Longest Substring Without Repeating Characters",
+      "description": "Given a string `s`, find the length of the longest substring without repeating characters.\n\nExample:\nInput: s = \"abcabcbb\"\nOutput: 3\nExplanation: The answer is \"abc\", with the length of 3.",
+      "constraints": "1. 0 <= s.length <= 5 * 10^4\n2. `s` consists of English letters, digits, symbols, and spaces.",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Container With Most Water",
+      "description": "Given `n` non-negative integers `a1, a2, ..., an`, where each represents a point at coordinate `(i, ai)`. `n` vertical lines are drawn such that the two endpoints of the line `i` are at `(i, ai)` and `(i, 0)`. Find two lines, which, together with the x-axis, forms a container, such that the container contains the most water.\n\nNotice that you may not slant the container.",
+      "constraints": "1. 2 <= n <= 3 * 10^3\n2. 0 <= ai <= 10^4",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Binary Tree Maximum Path Sum",
+      "description": "Given a non-empty binary tree, find the maximum path sum. For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.\n\nExample:\nGiven the below binary tree:\n\n     1\n    / \\\n   2   3\n\nReturn 6 (sum of the path 2 -> 1 -> 3).",
+      "constraints": "The number of nodes in the tree is in the range [1, 3 * 10^4].\n-10^5 <= Node.val <= 10^5",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Find All Anagrams in a String",
+      "description": "Given two strings `s` and `p`, return an array of all the start indices of `p`'s anagrams in `s`. You may return the answer in any order.\n\nAn Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.",
+      "constraints": "1. 1 <= s.length, p.length <= 3 * 10^4\n2. s and p consist of lowercase English letters.",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Wildcard Matching",
+      "description": "Given an input string `s` and a pattern `p`, implement wildcard pattern matching with support for '?' and '*'.\n\n'?' Matches any single character.\n'*' Matches any sequence of characters (including the empty sequence).\n\nThe matching should cover the entire input string (not partial).",
+      "constraints": "1. 0 <= s.length, p.length <= 2000\n2. s contains only lowercase English letters.\n3. p contains only lowercase English letters, '?' or '*'.",
+      "difficulty": "Hard"
+    },
+    {
+      "title": "Remove Nth Node From End of List",
+      "description": "Given the head of a linked list, remove the `nth` node from the end of the list and return its head.\n\nExample:\nGiven linked list: 1->2->3->4->5, and n = 2.\nAfter removing the second node from the end, the linked list becomes 1->2->3->5.",
+      "constraints": "1. The number of nodes in the list is between 0 and 30.\n2. 1 <= Node.val <= 100\n3. 1 <= n <= number of nodes in the list",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Subarray Sum Equals K",
+      "description": "Given an array of integers `nums` and an integer `k`, return the total number of continuous subarrays whose sum equals to `k`.\n\nExample:\nInput: nums = [1,1,1], k = 2\nOutput: 2\nExplanation: The subarrays [1,1] and [1,1] have sum equals to 2.",
+      "constraints": "1. 1 <= nums.length <= 2 * 10^4\n2. -10^4 <= nums[i] <= 10^4\n3. -10^9 <= k <= 10^9",
+      "difficulty": "Medium"
+    },
+    {
+      "title": "Minimum Window Substring",
+      "description": "Given two strings `s` and `t`, return the minimum window in `s` which will contain all the characters in `t` in complexity `O(n)`.\n\nIf there is no such window in `s` that covers all characters in `t`, return an empty string `\"\"`.\n\nNote: If there are multiple valid windows, return the one with the smallest length. You can return the answer in any order.",
+      "constraints": "1. 1 <= s.length, t.length <= 10^5\n2. s and t consist of English letters.",
+      "difficulty": "Hard"
+    }
+  ]
+}
